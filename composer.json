@@ -6,6 +6,6 @@
     "version": "1.0.0",
     "require": {
         "ext-simplexml": "*",
-        "lightna/engine": "^1.0"
+        "lightna/lightna.engine": "^1.0"
     }
 }
