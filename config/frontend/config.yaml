@@ -1,0 +1,21 @@
+maintenance.vary_name: MAGE_RUN_CODE
+router.bypass.rules.url_starts_with:
+  - checkout/
+  - customer/
+  - sales/
+  - wishlist/
+  - downloadable/customer/products/
+  - newsletter/manage/
+  - vault/cards/listaction/
+  - review/customer/
+  - newsletter/
+  - catalogsearch/
+  - search/ajax/suggest
+  - lightna/session/update
+
+cart.item.fields:
+  - product_id
+  - sku
+  - name
+  - qty
+  - price
