@@ -5,11 +5,11 @@ declare(strict_types=1);
 namespace Lightna\Magento\App;
 
 use Exception;
-use Lightna\Engine\Data\DataA;
+use Lightna\Engine\App\ObjectA;
 use Lightna\Magento\App\Entity\RunCode as RunCodeEntity;
 use Lightna\Magento\App\Query\Store;
 
-class Scope extends DataA
+class Scope extends ObjectA
 {
     protected RunCodeEntity $runCodeEntity;
     protected Store $store;
