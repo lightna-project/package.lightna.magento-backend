@@ -1,5 +1,5 @@
 router.bypass:
-  rules.url_starts_with:
+  rule.url_starts_with:
     - soap/
     - rest/
 project:
