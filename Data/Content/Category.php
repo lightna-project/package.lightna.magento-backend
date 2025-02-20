@@ -8,7 +8,7 @@ use Lightna\Engine\Data\DataA;
 use Lightna\Magento\Data\Content\Product\FilterableAttribute;
 
 /**
- * @property-read FilterableAttribute[] $filterableAttributes
+ * @property FilterableAttribute[] $filterableAttributes
  */
 class Category extends DataA
 {

@@ -8,7 +8,7 @@ use Lightna\Engine\Data\DataA;
 use Lightna\Magento\Data\Content\Product\VisibleOnFrontAttribute;
 
 /**
- * @property-read VisibleOnFrontAttribute[] visibleOnFrontAttributes
+ * @property VisibleOnFrontAttribute[] visibleOnFrontAttributes
  */
 class Product extends DataA
 {

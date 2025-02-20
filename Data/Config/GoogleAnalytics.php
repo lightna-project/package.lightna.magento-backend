@@ -7,7 +7,6 @@ namespace Lightna\Magento\Data\Config;
 use Lightna\Engine\Data\DataA;
 
 /**
- * @property-read bool active
  * @method string account(string $escapeMethod = null)
  */
 class GoogleAnalytics extends DataA

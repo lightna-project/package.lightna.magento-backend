@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Lightna\Magento\App\Index;
 
 use Lightna\Engine\App\ObjectA;
-use Lightna\Engine\App\Update\Schema\Index\Triggers;
+use Lightna\Engine\App\Schema\Index\Triggers;
 use Lightna\Magento\App\Query\Index\Price;
 
 class Service extends ObjectA

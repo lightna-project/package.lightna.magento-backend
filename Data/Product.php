@@ -12,7 +12,7 @@ use Lightna\Magento\Data\Product\Options as ProductOptions;
 use Lightna\Magento\Data\Product\Price as ProductPrice;
 
 /**
- * @property-read Image[] gallery
+ * @property Image[] gallery
  * @method string attributeSetId(string $escapeMethod = null)
  * @method string children(string $escapeMethod = null)
  * @method string description(string $escapeMethod = null)

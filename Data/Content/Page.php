@@ -7,13 +7,11 @@ namespace Lightna\Magento\Data\Content;
 use Lightna\Engine\Data\DataA;
 use Lightna\Magento\Data\Content\Page\Menu\Item as MenuItem;
 
-/**
- * @property-read string footerLinksHtml
- * @property-read string uspHtml
- */
 class Page extends DataA
 {
     public MenuItem $menu;
+    public string $footerLinksHtml;
+    public string $uspHtml;
 
     /** @AppConfig(entity/content_page/entity) */
     protected string $contentPageEntity;
