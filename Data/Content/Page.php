@@ -10,8 +10,8 @@ use Lightna\Magento\Data\Content\Page\Menu\Item as MenuItem;
 class Page extends DataA
 {
     public MenuItem $menu;
-    public string $footerLinksHtml;
-    public string $uspHtml;
+    public string $footerLinksHtml = '';
+    public string $uspHtml = '';
 
     /** @AppConfig(entity/content_page/entity) */
     protected string $contentPageEntity;
