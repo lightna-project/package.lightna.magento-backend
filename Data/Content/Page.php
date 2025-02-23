@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lightna\Magento\Data\Content;
+namespace Lightna\Magento\Backend\Data\Content;
 
 use Lightna\Engine\Data\DataA;
-use Lightna\Magento\Data\Content\Page\Menu\Item as MenuItem;
+use Lightna\Magento\Backend\Data\Content\Page\Menu\Item as MenuItem;
 
 class Page extends DataA
 {

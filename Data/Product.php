@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Lightna\Magento\Data;
+namespace Lightna\Magento\Backend\Data;
 
 use Lightna\Engine\App\Context\Entity\Loader as ContextEntityLoader;
 use Lightna\Engine\Data\EntityData;
-use Lightna\Magento\Data\Product\Gallery\Image;
-use Lightna\Magento\Data\Product\Inventory as ProductInventory;
-use Lightna\Magento\Data\Product\Options as ProductOptions;
-use Lightna\Magento\Data\Product\Price as ProductPrice;
+use Lightna\Magento\Backend\Data\Product\Gallery\Image;
+use Lightna\Magento\Backend\Data\Product\Inventory as ProductInventory;
+use Lightna\Magento\Backend\Data\Product\Options as ProductOptions;
+use Lightna\Magento\Backend\Data\Product\Price as ProductPrice;
 
 /**
  * @property Image[] gallery

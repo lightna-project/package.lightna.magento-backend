@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lightna\Magento\Data\Content\Page\Menu;
+namespace Lightna\Magento\Backend\Data\Content\Page\Menu;
 
 use Lightna\Engine\Data\DataA;
 
