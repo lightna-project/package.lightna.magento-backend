@@ -3,10 +3,10 @@
     "description": "Lightna Magento Backend module",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.33",
+    "version": "1.0.34",
     "require": {
         "ext-simplexml": "*",
-        "lightna/engine": "^1.0.33"
+        "lightna/engine": "^1.0.34"
     },
     "autoload": {
         "psr-4": {
