@@ -16,6 +16,7 @@ use Lightna\Magento\Backend\Data\Product\Price as ProductPrice;
  * @method string attributeSetId(string $escapeMethod = null)
  * @method string children(string $escapeMethod = null)
  * @method string categories(string $escapeMethod = null)
+ * @method string related(string $escapeMethod = null)
  * @method string description(string $escapeMethod = null)
  * @method string entityId(string $escapeMethod = null)
  * @method string name(string $escapeMethod = null)
@@ -41,6 +42,7 @@ class Product extends EntityData
     public string $sku;
     public string $typeId;
     public string $url;
+    public array $related = [];
 
     protected ContextEntityLoader $contextEntityLoader;
 
